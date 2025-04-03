@@ -1,0 +1,157 @@
+#statisticsMenu {
+    position: fixed;
+    top: 10px;
+    bottom: 10px;
+    right: -280px; 
+    width: 270px;
+    padding-top: 40px;
+    overflow-y: auto;
+    background: #F8F8F8;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    transition: right 0.5s;
+    z-index: 1000;
+    border-radius: 10px;
+    border: 1px solid #ACACAC;
+}
+
+#statisticsMenu.active {
+    right: 10px;
+}
+
+#statisticsMenuCloseButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #323232;
+    transition: color 0.3s;
+    z-index: 1001;
+}
+
+#statisticsMenuCloseButton:hover {
+    color: red;
+}
+
+.eu-title {
+    position: relative;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.eu-title::after {
+    content: "";
+    display: block;
+    margin: 8px auto;
+    width: 80%;
+    height: 1px;
+    background-color: #555555;
+    opacity: 50%;
+}
+
+.overall-title {
+    position: relative;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.overall-title::before {
+    content: "";
+    display: block;
+    margin: 8px auto;
+    width: 80%;
+    height: 1px;
+    background-color: #555555;
+    opacity: 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.statistics-list {
+    max-height: 80vh; 
+    overflow-y: auto; 
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    width: 100%;
+    padding: 0;
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #e1e1e1; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.statistics-list li {
+    display: block; 
+    padding: 5px 10px; 
+    text-align: left; 
+}
+
+.country-name {
+    margin-left: 20px;
+    display: inline-block;
+    width: 140px; 
+}
+
+.refugees-count {
+    display: inline-block; 
+}
+
+.overall-value {
+    position: relative; 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.statistics-list::-webkit-scrollbar {
+    width: 12px; 
+}
+
+.statistics-list::-webkit-scrollbar-track {
+    background: #e1e1e1; 
+}
+
+.statistics-list::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 6px; 
+    border: 3px solid #e1e1e1; 
+}
+
+.statistics-list::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+}
+
+@media (max-width: 1920px) {
+    .statistics-list {
+      max-height: 80vh;
+    }
+  }
+  
+  @media (max-width: 1600px) {
+    .statistics-list {
+      max-height: 62.5vh;
+    }
+  }
+  
+  @media (max-width: 1366px) {
+    .statistics-list {
+      max-height: 45vh;
+    }
+  }
