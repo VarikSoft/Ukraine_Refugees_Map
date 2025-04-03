@@ -23,4 +23,4 @@ js/ — JavaScripts for interactivity.
 
 # 📸 Screenshots:
 ![Main Interface](screenshots/main.png)
-![Main Without Menus](screenshots/main without menus.png)
+![Main Without Menus](screenshots/main2.png)
