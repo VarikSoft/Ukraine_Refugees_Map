@@ -1,26 +1,38 @@
-# Refugees from Ukraine in Europe — Interactive Map
-This project visualizes the number of Ukrainian refugees distributed across European countries. It features an interactive SVG map with a timeline slider, detailed country statistics, and dynamic charts. Users can select specific dates and observe changes over time.
+# 🌍 Refugees from Ukraine in Europe — Interactive Map
 
-## 🔍 Features:
-* Interactive map of Europe.
-* Per-country refugee statistics (shown in the right sidebar).
-* Timeline slider to track changes by month.
-* Bar chart displaying overall refugee growth.
-* Color-coded map legend by refugee count.
+A data visualization project that shows the number of Ukrainian refugees across European countries using an interactive SVG-based map. Users can explore refugee distribution by month, track dynamics over time, and analyze trends per country.
 
-## 🛠️ Technologies used:
-* HTML, CSS, JavaScript
-* SVG map rendering
-* Modular CSS for each UI component (menu, chart, legend, slider, etc.)
-* Chart.js for visualizations
-* Google Fonts (Open Sans)
+## 🔍 Features
 
-## 📂 Project structure:
-* index.html — Main HTML layout for the interface.
-* css/ — Styles for the map, menus, chart, legend, etc.
-* images/ — Icons and UI buttons (e.g., timeline, table, chart).
-* js/ — JavaScripts for interactivity.
+- 🗺️ Interactive SVG map of Europe
+- 📊 Sidebar with country-level refugee data
+- 🕒 Timeline slider for monthly filtering
+- 📈 Bar chart showing overall refugee growth
+- 🎨 Color-coded legend by refugee density
 
-## 📸 Screenshots:
+## 🛠️ Technologies Used
+
+- ✅ HTML, CSS, JavaScript (Vanilla)
+- ✅ SVG for map rendering
+- ✅ Chart.js for dynamic bar charts
+- ✅ Modular CSS per component (menu, slider, legend, chart)
+- ✅ Google Fonts (Open Sans)
+
+## 📁 Project Structure
+
+```
+project/
+├── index.html              # Main HTML structure
+├── css/                    # Styles for map, chart, UI panels
+├── js/                     # All interactivity logic
+├── images/                 # UI icons and buttons
+└── data/                   # Refugee data files (optional)
+```
+
+## 📸 Screenshots
+
+### 🧭 Full Interface
 ![Main Interface](screenshots/main.png)
+
+### 🧩 Minimal View (No Menus)
 ![Main Without Menus](screenshots/main2.png)
